@@ -1,0 +1,139 @@
+
+@media (max-width: 1199px) { 
+
+}
+
+
+@media (max-width: 999px) { 
+
+  .greeting {
+    top: 80px;
+  }
+
+  @keyframes move {
+    25% {
+      transform: translatey(-55px);
+      opacity: 1;
+    }
+    50% {
+      transform: translatey(-100px);
+    }
+    75% {
+      transform: translatey(-150px);
+    }
+  }
+}
+
+
+@media (max-width: 767px) { 
+
+  .block{
+    display: block;
+  
+  }
+    .dl{
+        padding-top:0px
+    }
+
+
+    .description-projet{
+        margin-bottom: 50px;
+    }
+
+    .img-projets {
+        min-height: 150px;
+    }
+
+    .closure::before {
+      height: 170px;
+    }
+
+    .greeting {
+      top: 75px;
+    }
+  
+    @keyframes move {
+      25% {
+        transform: translatey(-45px);
+        opacity: 1;
+      }
+      50% {
+        transform: translatey(-90px);
+      }
+      75% {
+        transform: translatey(-130px);
+      }
+    }
+
+
+ }
+
+ @media (max-width: 575px) {
+
+  .greeting {
+    top: 58px;
+  }
+  .closure::before {
+    height: 160px;
+  }
+  .text-anime{
+    font-size: 25px;
+}
+
+.closure::after {
+  top:190px;
+}
+
+@keyframes move {
+  25% {
+    transform: translatey(-35px);
+    opacity: 1;
+  }
+  50% {
+    transform: translatey(-70px);
+  }
+  75% {
+    transform: translatey(-110px);
+  }
+}
+ }
+ @media (max-width: 400px) { 
+
+
+  
+
+
+  .greeting {
+    top: 55px;
+  }
+  .closure::before {
+    height: 150px;
+  }
+  .text-anime{
+    font-size: 20px;
+}
+
+.closure::after {
+  top:190px;
+}
+
+@keyframes move {
+  25% {
+    transform: translatey(-35px);
+    opacity: 1;
+  }
+  50% {
+    transform: translatey(-70px);
+  }
+  75% {
+    transform: translatey(-100px);
+  }
+}
+
+
+    
+      
+
+   
+
+ }
